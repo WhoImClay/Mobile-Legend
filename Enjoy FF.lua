@@ -8,7 +8,7 @@ if date >= Date then
   end
 
 gg.setVisible(false)
-gg.alert(os.date("🇲🇨 EnjoyInWorld 🇲🇨\n🇲🇨 Free Fire Attackers 🇲🇨","⛔ W E L L C O M E ⛔"))
+gg.alert(os.date("🇲🇨 EnjoyInWorld 🇲🇨\n🇲🇨 Mobile Legend Attackers 🇲🇨","⛔ W E L L C O M E ⛔"))
 
 function HOME()
   Z = gg.multiChoice({
