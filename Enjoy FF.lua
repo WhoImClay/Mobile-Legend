@@ -1,16 +1,14 @@
-gg.goURL("https://youtube.com/c/bennyzilvers")
-
 Date = "20200114"
 date = os.date("%Y%m%d")
 if date >= Date then
-  print([[== All Right Severved ©2020 ==
+  print([[==🇲🇨 All Right Severved ©2020🇲🇨==
   
 📺sᴜʙsᴄʀɪʙᴇ ᴍʏ ᴄʜᴀɴɴᴇʟ: benny zilvers📺]])
   return
   end
 
 gg.setVisible(false)
-gg.alert(os.date("🤡🤡 EnjoyInWorld\n🤡🤡 Free Fire Attackers\n🤡🤡 Happy Chiter 🤡🤡","⛔ W E L L C O M E ⛔"))
+gg.alert(os.date("🇲🇨 EnjoyInWorld 🇲🇨\nFree Fire Attackers🇲🇨","⛔ W E L L C O M E ⛔"))
 
 function HOME()
   Z = gg.multiChoice({
