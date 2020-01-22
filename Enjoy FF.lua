@@ -797,7 +797,6 @@ while(nil)do;local i={}if(i.i)then;i.i=(i.i(i))end;end
 end
   function GRNDDD()
 while(nil)do;local i={}if(i.i)then;i.i=(i.i(i))end;end
-  gg.clearResults()
   gg.setRanges(gg.REGION_BAD)
   gg.searchNumber("1,194,363,394;589,832;655,368::557", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
   gg.searchNumber("1,194,363,394", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
@@ -817,7 +816,7 @@ while(nil)do;local i={}if(i.i)then;i.i=(i.i(i))end;end
   os.remove(gg.EXT_STORAGE .. "/Android/data/com.dts.freefireth/files/ffid.txt", gg.LOAD_APPEND)
   os.remove(gg.EXT_STORAGE .. "/Android/data/com.dts.freefireth/files/ffid.txt.enc", gg.LOAD_APPEND)
   os.remove(gg.EXT_STORAGE .. "/ᴍᴜʜᴀᴍᴀᴅɢᴀᴍᴇʀ.ʟᴜᴀ")
-  gg.toast("💚Green Bodie New💚")
+  gg.toast("💚Green Bodies💚")
 end
 function NOFALLDAMAGE()
 while(nil)do;local i={}if(i.i)then;i.i=(i.i(i))end;end
@@ -833,7 +832,7 @@ end
   function c()
 while(nil)do;local i={}if(i.i)then;i.i=(i.i(i))end;end
     mrveez = gg.multiChoice({
-      '〘 Aimbot 🎯 〙',
+      '〘 Super Aimbot 🎯 〙',
       '〘 ᴀuto hs flat🎯 〙',
       '〘 ʜɪɢʜ ᴅᴀᴍᴀɢᴇ🎰 〙',
       '〘 ʜᴇᴀᴅsʜᴏᴛ💀 〙',
@@ -855,6 +854,7 @@ while(nil)do;local i={}if(i.i)then;i.i=(i.i(i))end;end
       '〘 ᴄʀᴏꜱ ʜᴀɪʀ💥 〙',
       '〘 No Lag Shoot🔫 〙',
       '〘 Ms Sensitive 〙',
+      '〘 fast reload new🔫 〙',
       '➥ ʙᴀᴄᴋ'
     }, nil, 'ʜᴀᴄᴋ ᴡᴇᴀᴘᴏɴ')
     if mrveez == nil then
@@ -926,6 +926,9 @@ while(nil)do;local i={}if(i.i)then;i.i=(i.i(i))end;end
        MSSENBLDD() 
       end
       if mrveez[23] == true then
+       RELODNW() 
+      end
+      if mrveez[24] == true then
         VEEZ()
       end
     end
@@ -1502,6 +1505,7 @@ gg.clearResults()
 gg.toast("Long Ammo :D📥")
 end
 function FIRERATE()
+while(nil)do;local i={}if(i.i)then;i.i=(i.i(i))end;end
   gg.setRanges(8)
   gg.searchNumber("-8.5003245e22;-2.0291021e20;-8.5004722e22:89", 16, false, 536870912, 0, -1)
   gg.searchNumber("-8.5003245e22;-2.0291021e20", 16, false, 536870912, 0, -1)
@@ -1516,6 +1520,7 @@ function FIRERATE()
   gg.toast("ғɪʀᴇ ʀᴀᴛᴇ ᴀᴄᴛɪᴠ⛓️")
 end
 function FASHSHOT()
+while(nil)do;local i={}if(i.i)then;i.i=(i.i(i))end;end
   gg.setRanges(gg.REGION_C_DATA)
   gg.searchNumber("-8.5003245e22;-2.0291021e20;-8.5004722e22:89", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
   gg.searchNumber("-8.5003245e22;-2.0291021e20", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
@@ -1530,6 +1535,7 @@ function FASHSHOT()
   gg.toast("ꜰᴀꜱʜ ꜱʜᴏᴛ on")
 end
 function CROSHAIR()
+while(nil)do;local i={}if(i.i)then;i.i=(i.i(i))end;end
   gg.setRanges(gg.REGION_ANONYMOUS)
   gg.searchNumber("\00000r;00r;00r;3Fr;00r;00r;80r;3Fr;00r;00r;00r;00r;00r;00r;00r;00r;00r;00r;00r;3Fr::20", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
   gg.getResults(20)
@@ -1538,6 +1544,7 @@ function CROSHAIR()
   gg.toast("ᴄʀᴏꜱꜱ ʜᴀɪʀ on")
 end
 function DISPARRO()
+while(nil)do;local i={}if(i.i)then;i.i=(i.i(i))end;end
 gg.setRanges(gg.REGION_C_DATA)
 gg.searchNumber("0.01;0.01;0.01;0.01;1.41191865e34::17", gg.TYPE_FLOAT)
 gg.getResults(4)
@@ -1547,6 +1554,7 @@ gg.toast("Anti Lag Tembak 🔫")
 gg.setVisible(false)
 end
 function MSSENBLDD()
+while(nil)do;local i={}if(i.i)then;i.i=(i.i(i))end;end
 gg.setRanges(gg.REGION_C_DATA)
 gg.searchNumber("\000300", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(4)
@@ -1554,6 +1562,25 @@ gg.editAll("200", gg.TYPE_FLOAT)
 gg.clearResults()
 gg.toast("SENSIBILIDAD ON✔")
 gg.setVisible(false)
+end
+function RELODNW()
+while(nil)do;local i={}if(i.i)then;i.i=(i.i(i))end;end
+  gg.setRanges(gg.REGION_CODE_APP | gg.REGION_C_DATA)
+  name("libil2cpp.so")
+  myoffset = "29119324"
+  original("7F 45 4C 46 01 01 01 00")
+  replaced("12 03 A0 E3 1E FF 2F E1")
+  gg.clearResults()
+  gg.toast("Fast Reload New")
+  os.remove(gg.EXT_STORAGE .. "/com.garena.msdk/guest228899.dat")
+  os.remove(gg.EXT_STORAGE .. "/com.garena.msdk")
+  os.remove(gg.EXT_STORAGE .. "/Android/data/com.dts.freefireth/files/reportnew.db", gg.LOAD_APPEND)
+  os.remove(gg.EXT_STORAGE .. "/Android/data/com.dts.freefireth/files/ymrtc_log.txt", gg.LOAD_APPEND)
+  os.remove(gg.EXT_STORAGE .. "/Android/data/com.dts.freefireth/files/ffid.txt", gg.LOAD_APPEND)
+  os.remove(gg.EXT_STORAGE .. "/Android/data/com.dts.freefireth/files/ffid.txt.enc", gg.LOAD_APPEND)
+  os.remove(gg.EXT_STORAGE .. "/ᴍᴜʜᴀᴍᴀᴅɢᴀᴍᴇʀ.ʟᴜᴀ")
+  gg.setVisible(false)
+  gg.toast("👉Subscribe Benny Zilvers 🇻🇳")
 end
   function d()
 while(nil)do;local i={}if(i.i)then;i.i=(i.i(i))end;end
@@ -1564,6 +1591,7 @@ while(nil)do;local i={}if(i.i)then;i.i=(i.i(i))end;end
       '〘 Wallhack Stone 🗿 〙',
       '〘 sᴘᴇᴇᴅ ʀᴜɴ x3🏃 〙',
       '〘 high jump x3 〙',
+      '〘 high jump x7 〙',
       '〘 underground car 〙',
       '〘 walhack car 〙',
       '➥ ʙᴀᴄᴋ'
@@ -1589,12 +1617,15 @@ while(nil)do;local i={}if(i.i)then;i.i=(i.i(i))end;end
         JMPP3()
       end
       if mrveez[7] == true then
-        UNDGRNN()
+        JMPX7()
       end
       if mrveez[8] == true then
-        JMPP3()
+        UNDGRNN()
       end
       if mrveez[9] == true then
+        WLCRR()
+      end
+      if mrveez[10] == true then
         VEEZ()
       end
     end
@@ -1807,6 +1838,15 @@ while(nil)do;local i={}if(i.i)then;i.i=(i.i(i))end;end
   os.remove(gg.EXT_STORAGE .. "/Android/data/com.dts.freefireth/files/ffid.txt.enc", gg.LOAD_APPEND)
   os.remove(gg.EXT_STORAGE .. "/ᴍᴜʜᴀᴍᴀᴅɢᴀᴍᴇʀ.ʟᴜᴀ")
   gg.toast("High Jump x3 Active")
+end
+  function JMPX7()
+while(nil)do;local i={}if(i.i)then;i.i=(i.i(i))end;end
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber("CDr;CCr;CCr;BDr;33r;33r;33r;3Fr;00r;00r;40r;40r::12", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(12)
+  gg.editAll("CDr;CCr;CCr;BDr;00r;00r;C8r;42r;00r;00r;A0r;41r", gg.TYPE_BYTE)
+  gg.clearResults()
+  gg.toast("High Jump 7x Active")
 end
   function UNDGRNN()
 while(nil)do;local i={}if(i.i)then;i.i=(i.i(i))end;end
