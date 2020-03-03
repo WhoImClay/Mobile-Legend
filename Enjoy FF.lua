@@ -1,5 +1,9 @@
 
 -- Type Your Script all code bellow . Indonesian technology menu is support in game.
+for _FORV_8_ = 1, math.random(4000, 4000) do
+load(("local Anti_hook_load_ = gg.EXT_CACHE_DIR..gg.getFile()"))()
+end
+-- Type Your Script all code bellow . Indonesian technology menu is support in game.
 if gg.isPackageInstalled("sstool.only.com.sstool.only.com")then
 print("uninstall your sstool")
 os.exit()
